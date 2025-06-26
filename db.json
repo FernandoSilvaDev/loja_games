@@ -3,7 +3,7 @@
     {
       "id": 1,
       "titulo": "FIFA 23",
-      "plataformas": ["Xbox Series S/X","Windows","PS5"],
+      "plataformas": ["Xbox Series S/X","PC","PS5"],
       "precoAntigo": 299,
       "preco": 190,
       "categoria": "Esportes",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "titulo": "Gotham Knights",
-      "plataformas": ["Xbox Series S/X", "PS5", "Windows"],
+      "plataformas": ["Xbox Series S/X", "PS5", "PC"],
       "precoAntigo": 299,
       "preco": 150,
       "categoria": "Ação",
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "titulo": "The Witcher 3",
-      "plataformas": ["Xbox Series S/X", "PS5", "Windows"],
+      "plataformas": ["Xbox Series S/X", "PS5", "PC"],
       "precoAntigo": 349,
       "preco": 140.90,
       "categoria": "Ação",
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "titulo": "Hogwarts Legacy",
-      "plataformas": ["PS5", "Windows"],
+      "plataformas": ["PS5", "PC"],
       "precoAntigo": null,
       "preco": 349.90,
       "categoria": "Aventura",
@@ -39,11 +39,101 @@
     {
       "id": 5,
       "titulo": "Resident Evil 4",
-      "plataformas": ["PS5"],
+      "plataformas": ["PS5", "PC", "Xbox Series S/X"],
       "precoAntigo": null,
       "preco": 349.90,
       "categoria": "Ação",
       "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202207/2509/85p2Dwh5iDhUzRKe40QeNYh3.png?w=440&thumb=false"
+    },
+    {
+      "id": 6,
+      "titulo": "Death Stranding 2",
+      "plataformas": ["PS5"],
+      "precoAntigo": null,
+      "preco": 399.50,
+      "categoria": "Aventura",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202503/0316/45a0dd4b9682d43459606d901be075e645621f5ef52be212.png?w=230&thumb=false"
+    },
+    {
+      "id": 7,
+      "titulo": "Dragon Ball: Kakarot",
+      "plataformas": ["PS5"],
+      "precoAntigo": null,
+      "preco": 299.90,
+      "categoria": "Luta",
+      "imagem": "https://gmedia.playstation.com/is/image/SIEPDC/dragon-ball-z-kakarot-thumbnail-en-01-19dec23?$600px--t$"
+    },
+    {
+      "id": 8,
+      "titulo": "Horizon Call Of The M...",
+      "plataformas": ["PS5", "PC", "Xbox Series S/X"],
+      "precoAntigo": null,
+      "preco": 299.90,
+      "categoria": "Aventura",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202207/0615/eicVspHDlt11H1xtnsw5dgkz.png"
+    },
+    {
+      "id": 9,
+      "titulo": "The Last Of Us Part 2",
+      "plataformas": ["PS5", "PC", "Xbox Series S/X"],
+      "precoAntigo": 349.90,
+      "preco": 149.90,
+      "categoria": "Aventura",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202311/1717/3a33a4b0a02b54074d4989a4118a4b594815d945b44a82cf.png?$100px$"
+    },
+    {
+      "id": 10,
+      "titulo": "Silent Hill 2",
+      "plataformas": ["PS5", "PC", "Xbox Series S/X"],
+      "precoAntigo": 349.90,
+      "preco": 209.90,
+      "categoria": "Terror",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202210/2000/IgwsFz9BiBrFvyV7pIWpoVgd.png?$100px$"
+    },
+    {
+      "id": 11,
+      "titulo": "Horizon Zero Dawn",
+      "plataformas": ["PS5", "PC", "Xbox Series S/X"],
+      "precoAntigo": 249.90,
+      "preco": 149.90,
+      "categoria": "Aventura",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0221/vC7trMorHJgbImp8PCQvpI0p.png?$100px$"
+    },
+    {
+      "id": 12,
+      "titulo": "F1 25",
+      "plataformas": ["PS5", "PC", "Xbox Series S/X"],
+      "precoAntigo": null,
+      "preco": 249.00,
+      "categoria": "Corrida",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202505/1521/44c15449fbe9485987e27e2fa2c86008a7b4a89d9ab7e0a8.png?$100px$"
+    },
+    {
+      "id": 13,
+      "titulo": "EA Sports NHL",
+      "plataformas": ["PS5", "PC", "Xbox Series S/X"],
+      "precoAntigo": null,
+      "preco": 249.00,
+      "categoria": "Esportes",
+      "imagem": "https://gmedia.playstation.com/is/image/SIEPDC/ea-sports-nhl-25-store-artwork-01-26aug24-en?$1200px$"
+    },
+    {
+      "id": 14,
+      "titulo": "Street Fighter 6",
+      "plataformas": ["PS5", "PC", "Xbox Series S/X"],
+      "precoAntigo": null,
+      "preco": 179.00,
+      "categoria": "Luta",
+      "imagem": "https://gmedia.playstation.com/is/image/SIEPDC/street-fighter-6-pack-01-23nov22?$1200px$"
+    },
+    {
+      "id": 15,
+      "titulo": "Black Myth: Wukong",
+      "plataformas": ["PS5"],
+      "precoAntigo": null,
+      "preco": 223.00,
+      "categoria": "Aventura",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202405/2117/bd406f42e9352fdb398efcf21a4ffe575b2306ac40089d21.png?$800px$"
     }
 
   ]

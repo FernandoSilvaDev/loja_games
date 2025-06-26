@@ -1,4 +1,6 @@
-import { useEffect, useState } from 'react'
+// Rodar o servidor dos produtos que simula um API: npx json-server db.json --port 4000
+// Depois iniciar o projeto com: npm start
+
 import { Provider } from 'react-redux'
 import Header from './components/Header'
 import Produtos from './containers/Produtos'
@@ -17,25 +19,13 @@ export type Game = {
   imagem: string
 }
 
-function adicionarAoCarrinho() {
-  console.log('test')
-}
-
 function App() {
-  const [games, setGames] = useState<Game[]>([])
-
-  useEffect(() => {
-    fetch('http://localhost:4000/produtos')
-      .then((res) => res.json())
-      .then((res) => setGames(res))
-  }, [])
-
   return (
     <Provider store={store}>
       <GlobalStyle />
       <div className="container">
         <Header />
-        <Produtos jogos={games} adicionarAoCarrinho={adicionarAoCarrinho} />
+        <Produtos />
       </div>
     </Provider>
   )
