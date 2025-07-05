@@ -4,11 +4,13 @@ import { Game } from '../App'
 
 const api = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: 'http://localhost:4000'
+    baseUrl:
+      'https://raw.githubusercontent.com/FernandoSilvaDev/servidor_estatico/refs/heads/main'
   }),
   endpoints: (builder) => ({
     getJogos: builder.query<Game[], void>({
-      query: () => 'produtos'
+      query: () => 'db.json',
+      transformResponse: (response: { produtos: Game[] }) => response.produtos
     })
   })
 })
