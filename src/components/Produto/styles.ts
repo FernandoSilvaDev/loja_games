@@ -4,7 +4,9 @@ import { cores } from '../../styles'
 
 export const Produto = styled.div``
 
-export const Titulo = styled.h3``
+export const Titulo = styled.h3`
+  font-size: 22px;
+`
 
 export const Capa = styled.div`
   position: relative;
